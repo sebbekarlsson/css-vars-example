@@ -1,0 +1,33 @@
+@import "variables.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--typsnitt);
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background-color: var(--dark-bg);
+    color: var(--light-fg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    margin-top: 1rem;
+}
+
+.card-holder {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    height: 256px;
+    grid-gap: 1rem;
+}
+
+.card-holder .card {
+    background-color: var(--dark-bg);
+}
